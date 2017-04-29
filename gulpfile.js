@@ -56,7 +56,7 @@ var cfg={
   vendor_fonts : { bld: vendorBuildPath + "/stylesheets/fonts" }, 
 
   apiUrl: { dev: "http://localhost:3000",
-            prd: "https://capstone-2-gulp-staging.herokuapp.com/"},
+            prd: "https://capstone-2-server-rails.herokuapp.com/"},
 };
 
 //files within these paths will be served as root-level resources in this priority order

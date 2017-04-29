@@ -16,7 +16,17 @@ branch: `master`
   npm install
   bower install
   ``` 
+2. Development:
 
+  ```bash
+  gulp run 
+  ```
+  
+3. Distribution:
+
+  ```bash
+  gulp dist 
+  ```
 
 ## Rails server
 
