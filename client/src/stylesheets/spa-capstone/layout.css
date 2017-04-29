@@ -1,3 +1,6 @@
 body {
   background: white;
 }
+.well-title {
+  margin-top: 0;
+}
