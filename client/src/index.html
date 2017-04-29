@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="spa-capstone">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- build:css client-assets/styles.css -->
+    <link rel="stylesheet" type="text/css" href="application.css">
+    <!-- endbuild -->
+
+    <!-- build:js client-assets/scripts.js -->
+    <script src='jquery.js'></script>
+    <script src='bootstrap.js'></script>
+    <script src='angular.js'></script>
+    <script src='angular-ui-router.js'></script>
+    <script src='angular-resource.js'></script>
+
+    <script src='spa-capstone/app.module.js'></script>
+    <script src='spa-capstone/app.router.js'></script>
+    <script src='spa-capstone/app.constant.js'></script> 
+
+    <script src='spa-capstone/cities/cities.module.js'></script>
+    <script src='spa-capstone/cities/cities.service.js'></script>
+    <script src='spa-capstone/cities/cities.controller.js'></script>
+    <script src='spa-capstone/cities/cities.directives.js'></script>
+
+    <script src='application.js'></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1>Photo Tourist App</h1>
+  
+        <div ui-view></div>
+      </div>
+    </div> <!-- /.container -->
+  </body>
+</html>
