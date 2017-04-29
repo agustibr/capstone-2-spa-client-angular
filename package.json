@@ -1,0 +1,33 @@
+{
+  "name": "capstone-2-spa-client-angular",
+  "version": "1.0.0",
+  "description": "SPA Development and Deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:agustibr/capstone-2-spa-client-angular.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agustibr/capstone-2-spa-client-angular/issues"
+  },
+  "homepage": "https://github.com/agustibr/capstone-2-spa-client-angular",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "del": "^2.2.2",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-debug": "^3.1.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-sync": "^0.1.4",
+    "gulp-uglify": "^2.1.0",
+    "gulp-useref": "^3.1.2"
+  }
+}
