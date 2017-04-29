@@ -4,7 +4,7 @@
 
 branch: `master`
 
-+ [web client on github](https://agustibr.github.io/capstone-2-spa-client-angular)
++ [web client on github](https://agustibr.github.io/capstone-2-spa-client-angular/dist)
 + [client source repository on github](https://github.com/agustibr/capstone-2-spa-client-angular)
 
 
